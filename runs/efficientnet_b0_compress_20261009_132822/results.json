@@ -1,0 +1,36 @@
+{
+  "args": {
+    "model": "efficientnet_b0",
+    "epochs": 10,
+    "bs": 128,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "patience": 4,
+    "no_augment": false,
+    "compress_aug": true,
+    "compress_p": 0.5,
+    "seed": 0,
+    "limit": 0,
+    "cpu": false
+  },
+  "params_millions": 4.008829,
+  "train_minutes": 25.124357426166533,
+  "best_val_f1": 0.9875782569810195,
+  "test": {
+    "accuracy": 0.9861,
+    "f1": 0.9862157873859579,
+    "roc_auc": 0.9993517049999999,
+    "false_positive_rate": 0.0223,
+    "false_negative_rate": 0.0055,
+    "confusion_matrix": [
+      [
+        9777,
+        223
+      ],
+      [
+        55,
+        9945
+      ]
+    ]
+  }
+}

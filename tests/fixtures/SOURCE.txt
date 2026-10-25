@@ -1,0 +1,2 @@
+C.jpg: official C2PA test image from https://github.com/contentauth/c2pa-python (tests/fixtures),
+signed with the C2PA test certificate. Used by test_provenance.py.

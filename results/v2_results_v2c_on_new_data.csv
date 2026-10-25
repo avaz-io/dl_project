@@ -1,0 +1,45 @@
+condition,group,source,label,n,correct_rate,mean_score
+clean,seen generators (test split),ai_coco_sdxl,AI,200,1.0,0.9994338750839233
+clean,seen generators (test split),ai_ffhq_sdxl,AI,200,1.0,0.9997093677520752
+clean,seen generators (test split),ai_genimage_ADM,AI,200,0.995,0.9946087598800659
+clean,seen generators (test split),ai_genimage_VQDM,AI,200,0.955,0.9431277513504028
+clean,seen generators (test split),ai_genimage_Wukong,AI,104,1.0,0.9999349117279053
+clean,seen generators (test split),ai_journeydb,AI,61,0.9836065573770492,0.9803114533424377
+clean,seen generators (test split),ai_realvisxl,AI,38,1.0,0.9990370869636536
+clean,seen generators (test split),real_caltech256,real,450,0.9911111111111112,0.009716421365737915
+clean,seen generators (test split),real_celebahq,real,450,1.0,0.001553298905491829
+clean,seen generators (test split),real_coco,real,441,0.9886621315192744,0.01581730879843235
+clean,seen generators (test split),real_coco_people,real,450,0.9666666666666667,0.03947363793849945
+clean,seen generators (test split),real_ffhq,real,438,1.0,0.0008318242616951466
+clean,seen generators (test split),real_lfw,real,450,1.0,0.00020187573682051152
+clean,seen generators (test split),real_openimages,real,443,0.981941309255079,0.026534661650657654
+clean,seen generators (test split),real_openimages_hi,real,163,0.9938650306748467,0.013169731944799423
+clean,held-out (unseen),ai_coco_flux,AI,1000,0.684,0.6828746199607849
+clean,held-out (unseen),ai_ffhq_flux,AI,1000,0.772,0.771260142326355
+clean,held-out (unseen),ai_genimage_BigGAN,AI,1000,0.584,0.5710809230804443
+clean,held-out (unseen),ai_genimage_GLIDE,AI,1000,0.784,0.7684580087661743
+clean,held-out (unseen),ai_genimage_Midjourney,AI,403,0.967741935483871,0.95467209815979
+clean,held-out (unseen),real_camera,real,631,0.9413629160063391,0.06656677275896072
+clean,held-out (unseen),real_imagenet,real,1123,0.8913624220837043,0.11910933256149292
+messenger,seen generators (test split),ai_coco_sdxl,AI,200,1.0,0.996036171913147
+messenger,seen generators (test split),ai_ffhq_sdxl,AI,200,1.0,0.9987124800682068
+messenger,seen generators (test split),ai_genimage_ADM,AI,200,0.995,0.9933680891990662
+messenger,seen generators (test split),ai_genimage_VQDM,AI,200,0.935,0.9316955804824829
+messenger,seen generators (test split),ai_genimage_Wukong,AI,104,1.0,0.9973322153091431
+messenger,seen generators (test split),ai_journeydb,AI,61,0.9672131147540983,0.9714454412460327
+messenger,seen generators (test split),ai_realvisxl,AI,38,1.0,0.9980674386024475
+messenger,seen generators (test split),real_caltech256,real,450,0.9888888888888889,0.014490767382085323
+messenger,seen generators (test split),real_celebahq,real,450,1.0,0.0012540580937638879
+messenger,seen generators (test split),real_coco,real,441,0.9705215419501134,0.03550863638520241
+messenger,seen generators (test split),real_coco_people,real,450,0.9355555555555556,0.0672701820731163
+messenger,seen generators (test split),real_ffhq,real,438,1.0,0.0007619783864356577
+messenger,seen generators (test split),real_lfw,real,450,1.0,0.0008220610907301307
+messenger,seen generators (test split),real_openimages,real,443,0.963882618510158,0.04249879717826843
+messenger,seen generators (test split),real_openimages_hi,real,163,0.9877300613496932,0.022595319896936417
+messenger,held-out (unseen),ai_coco_flux,AI,1000,0.611,0.5991857647895813
+messenger,held-out (unseen),ai_ffhq_flux,AI,1000,0.773,0.7576013207435608
+messenger,held-out (unseen),ai_genimage_BigGAN,AI,1000,0.566,0.5647714734077454
+messenger,held-out (unseen),ai_genimage_GLIDE,AI,1000,0.775,0.7638426423072815
+messenger,held-out (unseen),ai_genimage_Midjourney,AI,403,0.9305210918114144,0.916537880897522
+messenger,held-out (unseen),real_camera,real,631,0.9381933438985737,0.07534820586442947
+messenger,held-out (unseen),real_imagenet,real,1123,0.8878005342831701,0.1183398887515068

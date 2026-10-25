@@ -1,0 +1,32 @@
+{
+  "args": {
+    "model": "resnet18",
+    "epochs": 10,
+    "bs": 128,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "patience": 4,
+    "no_augment": false,
+    "seed": 0
+  },
+  "params_millions": 11.169345,
+  "train_minutes": 11.16371579170227,
+  "best_val_f1": 0.9846246006389776,
+  "test": {
+    "accuracy": 0.9826,
+    "f1": 0.9826641426721132,
+    "roc_auc": 0.9986674100000001,
+    "false_positive_rate": 0.0211,
+    "false_negative_rate": 0.0137,
+    "confusion_matrix": [
+      [
+        9789,
+        211
+      ],
+      [
+        137,
+        9863
+      ]
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "args": {
+    "model": "baseline",
+    "epochs": 15,
+    "bs": 128,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "patience": 4,
+    "no_augment": false,
+    "compress_aug": true,
+    "compress_p": 0.5,
+    "seed": 0,
+    "limit": 0,
+    "cpu": false
+  },
+  "params_millions": 0.084001,
+  "train_minutes": 2.6975266536076865,
+  "best_val_f1": 0.9437869822485208,
+  "test": {
+    "accuracy": 0.94305,
+    "f1": 0.943944091736798,
+    "roc_auc": 0.98751554,
+    "false_positive_rate": 0.0729,
+    "false_negative_rate": 0.041,
+    "confusion_matrix": [
+      [
+        9271,
+        729
+      ],
+      [
+        410,
+        9590
+      ]
+    ]
+  }
+}

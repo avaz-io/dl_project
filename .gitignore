@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets (downloaded separately, see README)
+data/
+
+# Logs and scratch output
+*_log.txt
+*_err.txt
+*.log
+train_v2_progress.txt
+*.stackdump
+
+# Personal documents and images of real people
+proposal/
+DL_Proposal_*
+results/figures/v2_false_alarm_occlusion.png
+
+# Model checkpoints: keep only best.pt of the models the app uses (see README)
+runs_v2/*/last.pt
+runs_v2/efficientnet_b0_224_20261012_152538/
+runs_v2/efficientnet_b0_224_20261012_152703/
+runs_v2/efficientnet_b0_224_20261012_153202/
+runs_v2/efficientnet_b0_224_20261012_154329/best.pt
+runs_v2/efficientnet_b0_224_20261013_133415/best.pt
+runs_v2/efficientnet_b0_224_20261013_171633/best.pt
+
+# Watermark check queue on the second PC
+desk_jobs/

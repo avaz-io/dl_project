@@ -1,0 +1,32 @@
+{
+  "args": {
+    "model": "baseline",
+    "epochs": 15,
+    "bs": 128,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "patience": 4,
+    "no_augment": false,
+    "seed": 0
+  },
+  "params_millions": 0.084001,
+  "train_minutes": 1.1447099685668944,
+  "best_val_f1": 0.9522670652715496,
+  "test": {
+    "accuracy": 0.9487,
+    "f1": 0.9488585385305552,
+    "roc_auc": 0.9892221250000001,
+    "false_positive_rate": 0.0544,
+    "false_negative_rate": 0.0482,
+    "confusion_matrix": [
+      [
+        9456,
+        544
+      ],
+      [
+        482,
+        9518
+      ]
+    ]
+  }
+}

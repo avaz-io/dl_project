@@ -1,0 +1,8 @@
+| Model | Training | Params (M) | Train (min) | Acc. % | F1 % | ROC-AUC | FPR % | F1 JPEG50 % | F1 messenger % | Unseen-gen bal. acc. % | Unseen-gen detection % |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Baseline CNN | standard training | 0.08 | 1.1 | 94.87 | 94.89 | 0.9892 | 5.44 | 90.9 | 33.6 | 53.2 | 35.1 |
+| Baseline CNN | compression-aware | 0.08 | 2.7 | 94.31 | 94.39 | 0.9875 | 7.29 | 93.0 | 90.0 | 54.5 | 31.8 |
+| ResNet-18 | standard training | 11.17 | 11.2 | 98.26 | 98.27 | 0.9987 | 2.11 | 96.5 | 33.0 | 54.8 | 27.1 |
+| ResNet-18 | compression-aware | 11.17 | 12.2 | 98.00 | 98.02 | 0.9986 | 3.00 | 97.5 | 96.4 | 54.6 | 22.8 |
+| EfficientNet-B0 | standard training | 4.01 | 23.7 | 98.92 | 98.92 | 0.9994 | 1.45 | 97.6 | 42.9 | 54.0 | 23.9 |
+| EfficientNet-B0 | compression-aware | 4.01 | 25.1 | 98.61 | 98.62 | 0.9994 | 2.23 | 98.0 | 96.9 | 53.7 | 21.4 |

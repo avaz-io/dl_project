@@ -1,0 +1,738 @@
+{
+  "args": {
+    "epochs": 12,
+    "steps": 500,
+    "bs": 32,
+    "lr": 0.0003,
+    "wd": 0.0001,
+    "compress_p": 0.5,
+    "patience": 4,
+    "seed": 0,
+    "cpu": false,
+    "resume": ""
+  },
+  "best_val_balanced_acc": 0.9917168674698795,
+  "train_minutes": 28.675570154190062,
+  "rows": [
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "ai_coco_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.995,
+      "mean_score": 0.9912155866622925
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "ai_ffhq_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.9997297525405884
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_ADM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.9995335340499878
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_VQDM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.9974255561828613
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_Wukong",
+      "label": "AI",
+      "n": 104,
+      "correct_rate": 1.0,
+      "mean_score": 0.999866247177124
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "ai_journeydb",
+      "label": "AI",
+      "n": 61,
+      "correct_rate": 0.9836065573770492,
+      "mean_score": 0.9859514832496643
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "ai_realvisxl",
+      "label": "AI",
+      "n": 38,
+      "correct_rate": 1.0,
+      "mean_score": 0.9939858317375183
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "real_celebahq",
+      "label": "real",
+      "n": 450,
+      "correct_rate": 1.0,
+      "mean_score": 0.0001283025776501745
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "real_coco",
+      "label": "real",
+      "n": 441,
+      "correct_rate": 0.9410430839002267,
+      "mean_score": 0.06462448090314865
+    },
+    {
+      "condition": "clean",
+      "group": "seen generators (test split)",
+      "source": "real_ffhq",
+      "label": "real",
+      "n": 438,
+      "correct_rate": 1.0,
+      "mean_score": 0.00013319525169208646
+    },
+    {
+      "condition": "clean",
+      "group": "held-out (unseen)",
+      "source": "ai_coco_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.829,
+      "mean_score": 0.8248719573020935
+    },
+    {
+      "condition": "clean",
+      "group": "held-out (unseen)",
+      "source": "ai_ffhq_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.943,
+      "mean_score": 0.9356099963188171
+    },
+    {
+      "condition": "clean",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_BigGAN",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.909,
+      "mean_score": 0.9033231735229492
+    },
+    {
+      "condition": "clean",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_GLIDE",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.974,
+      "mean_score": 0.9678463339805603
+    },
+    {
+      "condition": "clean",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_Midjourney",
+      "label": "AI",
+      "n": 403,
+      "correct_rate": 1.0,
+      "mean_score": 0.998512864112854
+    },
+    {
+      "condition": "clean",
+      "group": "held-out (unseen)",
+      "source": "real_imagenet",
+      "label": "real",
+      "n": 1123,
+      "correct_rate": 0.4772929652715939,
+      "mean_score": 0.5253250598907471
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "ai_coco_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.985,
+      "mean_score": 0.9804497361183167
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "ai_ffhq_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.999722957611084
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_ADM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.9992893934249878
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_VQDM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.9947567582130432
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_Wukong",
+      "label": "AI",
+      "n": 104,
+      "correct_rate": 1.0,
+      "mean_score": 0.9998136758804321
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "ai_journeydb",
+      "label": "AI",
+      "n": 61,
+      "correct_rate": 0.9836065573770492,
+      "mean_score": 0.9793607592582703
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "ai_realvisxl",
+      "label": "AI",
+      "n": 38,
+      "correct_rate": 0.9210526315789473,
+      "mean_score": 0.9277517199516296
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "real_celebahq",
+      "label": "real",
+      "n": 450,
+      "correct_rate": 1.0,
+      "mean_score": 6.709102308377624e-05
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "real_coco",
+      "label": "real",
+      "n": 441,
+      "correct_rate": 0.9410430839002267,
+      "mean_score": 0.07106775045394897
+    },
+    {
+      "condition": "jpeg50",
+      "group": "seen generators (test split)",
+      "source": "real_ffhq",
+      "label": "real",
+      "n": 438,
+      "correct_rate": 1.0,
+      "mean_score": 0.0010364009067416191
+    },
+    {
+      "condition": "jpeg50",
+      "group": "held-out (unseen)",
+      "source": "ai_coco_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.741,
+      "mean_score": 0.7305847406387329
+    },
+    {
+      "condition": "jpeg50",
+      "group": "held-out (unseen)",
+      "source": "ai_ffhq_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.91,
+      "mean_score": 0.9039363861083984
+    },
+    {
+      "condition": "jpeg50",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_BigGAN",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.914,
+      "mean_score": 0.9109207391738892
+    },
+    {
+      "condition": "jpeg50",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_GLIDE",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.971,
+      "mean_score": 0.9653520584106445
+    },
+    {
+      "condition": "jpeg50",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_Midjourney",
+      "label": "AI",
+      "n": 403,
+      "correct_rate": 0.9950372208436724,
+      "mean_score": 0.9929025173187256
+    },
+    {
+      "condition": "jpeg50",
+      "group": "held-out (unseen)",
+      "source": "real_imagenet",
+      "label": "real",
+      "n": 1123,
+      "correct_rate": 0.5342831700801425,
+      "mean_score": 0.4710821211338043
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "ai_coco_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.985,
+      "mean_score": 0.981535017490387
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "ai_ffhq_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.9983989596366882
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_ADM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.995,
+      "mean_score": 0.9937703013420105
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_VQDM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.975,
+      "mean_score": 0.9730360507965088
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_Wukong",
+      "label": "AI",
+      "n": 104,
+      "correct_rate": 1.0,
+      "mean_score": 0.9987706542015076
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "ai_journeydb",
+      "label": "AI",
+      "n": 61,
+      "correct_rate": 0.9508196721311475,
+      "mean_score": 0.9530564546585083
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "ai_realvisxl",
+      "label": "AI",
+      "n": 38,
+      "correct_rate": 0.9473684210526315,
+      "mean_score": 0.9508511424064636
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "real_celebahq",
+      "label": "real",
+      "n": 450,
+      "correct_rate": 1.0,
+      "mean_score": 0.0005603043246082962
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "real_coco",
+      "label": "real",
+      "n": 441,
+      "correct_rate": 0.9297052154195011,
+      "mean_score": 0.07321729511022568
+    },
+    {
+      "condition": "scale0.5",
+      "group": "seen generators (test split)",
+      "source": "real_ffhq",
+      "label": "real",
+      "n": 438,
+      "correct_rate": 0.997716894977169,
+      "mean_score": 0.002619159873574972
+    },
+    {
+      "condition": "scale0.5",
+      "group": "held-out (unseen)",
+      "source": "ai_coco_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.763,
+      "mean_score": 0.7515360713005066
+    },
+    {
+      "condition": "scale0.5",
+      "group": "held-out (unseen)",
+      "source": "ai_ffhq_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.921,
+      "mean_score": 0.9162420630455017
+    },
+    {
+      "condition": "scale0.5",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_BigGAN",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.921,
+      "mean_score": 0.9159852266311646
+    },
+    {
+      "condition": "scale0.5",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_GLIDE",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.972,
+      "mean_score": 0.9686700701713562
+    },
+    {
+      "condition": "scale0.5",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_Midjourney",
+      "label": "AI",
+      "n": 403,
+      "correct_rate": 0.9900744416873449,
+      "mean_score": 0.9898315072059631
+    },
+    {
+      "condition": "scale0.5",
+      "group": "held-out (unseen)",
+      "source": "real_imagenet",
+      "label": "real",
+      "n": 1123,
+      "correct_rate": 0.6438112199465716,
+      "mean_score": 0.3602791428565979
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "ai_coco_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.98,
+      "mean_score": 0.9691952466964722
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "ai_ffhq_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.995,
+      "mean_score": 0.9933133721351624
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_ADM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.995,
+      "mean_score": 0.9942755699157715
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_VQDM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.985,
+      "mean_score": 0.9825862050056458
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_Wukong",
+      "label": "AI",
+      "n": 104,
+      "correct_rate": 1.0,
+      "mean_score": 0.9967826008796692
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "ai_journeydb",
+      "label": "AI",
+      "n": 61,
+      "correct_rate": 0.9016393442622951,
+      "mean_score": 0.9072316884994507
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "ai_realvisxl",
+      "label": "AI",
+      "n": 38,
+      "correct_rate": 0.9210526315789473,
+      "mean_score": 0.9061631560325623
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "real_celebahq",
+      "label": "real",
+      "n": 450,
+      "correct_rate": 1.0,
+      "mean_score": 9.10920716705732e-05
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "real_coco",
+      "label": "real",
+      "n": 441,
+      "correct_rate": 0.9727891156462585,
+      "mean_score": 0.034603070467710495
+    },
+    {
+      "condition": "blur1.0",
+      "group": "seen generators (test split)",
+      "source": "real_ffhq",
+      "label": "real",
+      "n": 438,
+      "correct_rate": 0.997716894977169,
+      "mean_score": 0.001588228391483426
+    },
+    {
+      "condition": "blur1.0",
+      "group": "held-out (unseen)",
+      "source": "ai_coco_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.588,
+      "mean_score": 0.5865868926048279
+    },
+    {
+      "condition": "blur1.0",
+      "group": "held-out (unseen)",
+      "source": "ai_ffhq_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.834,
+      "mean_score": 0.8251511454582214
+    },
+    {
+      "condition": "blur1.0",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_BigGAN",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.909,
+      "mean_score": 0.9022032618522644
+    },
+    {
+      "condition": "blur1.0",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_GLIDE",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.966,
+      "mean_score": 0.9611917734146118
+    },
+    {
+      "condition": "blur1.0",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_Midjourney",
+      "label": "AI",
+      "n": 403,
+      "correct_rate": 0.9875930521091811,
+      "mean_score": 0.9806936383247375
+    },
+    {
+      "condition": "blur1.0",
+      "group": "held-out (unseen)",
+      "source": "real_imagenet",
+      "label": "real",
+      "n": 1123,
+      "correct_rate": 0.6936776491540516,
+      "mean_score": 0.30338919162750244
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "ai_coco_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.98,
+      "mean_score": 0.9722782969474792
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "ai_ffhq_sdxl",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 1.0,
+      "mean_score": 0.9994761943817139
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_ADM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.995,
+      "mean_score": 0.996622622013092
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_VQDM",
+      "label": "AI",
+      "n": 200,
+      "correct_rate": 0.99,
+      "mean_score": 0.9855507016181946
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "ai_genimage_Wukong",
+      "label": "AI",
+      "n": 104,
+      "correct_rate": 1.0,
+      "mean_score": 0.9993380308151245
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "ai_journeydb",
+      "label": "AI",
+      "n": 61,
+      "correct_rate": 0.9344262295081968,
+      "mean_score": 0.9381813406944275
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "ai_realvisxl",
+      "label": "AI",
+      "n": 38,
+      "correct_rate": 0.9473684210526315,
+      "mean_score": 0.9362874031066895
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "real_celebahq",
+      "label": "real",
+      "n": 450,
+      "correct_rate": 1.0,
+      "mean_score": 0.00013337739801499993
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "real_coco",
+      "label": "real",
+      "n": 441,
+      "correct_rate": 0.9546485260770975,
+      "mean_score": 0.05540933459997177
+    },
+    {
+      "condition": "messenger",
+      "group": "seen generators (test split)",
+      "source": "real_ffhq",
+      "label": "real",
+      "n": 438,
+      "correct_rate": 0.997716894977169,
+      "mean_score": 0.0023898512590676546
+    },
+    {
+      "condition": "messenger",
+      "group": "held-out (unseen)",
+      "source": "ai_coco_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.629,
+      "mean_score": 0.6260546445846558
+    },
+    {
+      "condition": "messenger",
+      "group": "held-out (unseen)",
+      "source": "ai_ffhq_flux",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.865,
+      "mean_score": 0.8633164167404175
+    },
+    {
+      "condition": "messenger",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_BigGAN",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.92,
+      "mean_score": 0.9174060225486755
+    },
+    {
+      "condition": "messenger",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_GLIDE",
+      "label": "AI",
+      "n": 1000,
+      "correct_rate": 0.971,
+      "mean_score": 0.9642981886863708
+    },
+    {
+      "condition": "messenger",
+      "group": "held-out (unseen)",
+      "source": "ai_genimage_Midjourney",
+      "label": "AI",
+      "n": 403,
+      "correct_rate": 0.9900744416873449,
+      "mean_score": 0.9862640500068665
+    },
+    {
+      "condition": "messenger",
+      "group": "held-out (unseen)",
+      "source": "real_imagenet",
+      "label": "real",
+      "n": 1123,
+      "correct_rate": 0.6509349955476402,
+      "mean_score": 0.34842291474342346
+    }
+  ]
+}
